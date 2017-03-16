@@ -5,15 +5,16 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/wahwahy/api.git"
-  },  
+  },
   "author": "Juris",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "mongoose": "^4.9.0"
   }
 }
