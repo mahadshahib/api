@@ -9,8 +9,8 @@ mongoose.connect('mongodb://api:api321@mongodb3/sampledb',function(err) {
 var mongoSchema =   mongoose.Schema;
 // create schema
 var userSchema  = {
-    "userEmail" : String,
-    "userPassword" : String
+    "userName" : String,
+    "description" : String
 };
 // create model if not exists.
 module.exports = mongoose.model('userLogin',userSchema);
