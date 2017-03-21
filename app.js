@@ -38,7 +38,7 @@ router.route("/users")
         var response = {};
         // fetch email and password from REST request.
         // Add strict validation when you use this in Production.
-        db.userName = req.body.email;
+        db.userName = req.body.userName;
         // Hash the password using SHA1 algorithm.
         db.description = req.body.description;
         db.save(function (err) {
