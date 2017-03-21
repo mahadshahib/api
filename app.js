@@ -119,7 +119,7 @@ router.route("/users/:id")
 app.use('/', router);
 
 // server listens in on port
-app.listen(server_port, server_ip_address, function () {
+app.listen(server_port, server_ip_address, function (err) {
     if (err) {
         return console.log('Cannot listen', err)
     } else {
